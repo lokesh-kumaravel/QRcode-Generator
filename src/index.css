@@ -85,3 +85,22 @@ label
 {
   color:  rgba(25, 194, 36, 0.694);
 }
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.background {
+  height: 100vh;
+  background-image: url('https://www.shutterstock.com/image-illustration/80s-retro-futurism-background-260nw-1232789431.jpg'); /* Replace 'your-background-image.jpg' with your image URL */
+  background-size: cover;
+  animation: moveBackground 10s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+.p
+{
+  color:  white
+}
