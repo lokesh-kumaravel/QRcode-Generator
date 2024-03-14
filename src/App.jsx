@@ -60,8 +60,12 @@ const App =() =>{
           <button className="download-button" onClick={downloadQR}>Download QR Code</button>
         </div>
         <p className="p">Designed By <a href='https://www.linkedin.com/in/lokesh-k-5b7513276/' className="p">Lokesh K</a></p>
+<<<<<<< HEAD
       </div>
+=======
+>>>>>>> d5cf83b1da96bad0d57ddfd580926b270bcfcb7c
       </div>
+        </div>
     );
   
 }
