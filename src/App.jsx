@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import './App.css'
 
@@ -44,6 +43,7 @@ const App =() =>{
   }
 
     return (
+      <div className="background">
       <div className="app-container">
         <h1>QR CODE GENERATOR</h1>
        { loading&&<p>Please wait...</p>}
@@ -59,7 +59,8 @@ const App =() =>{
           <button className="generate-button" disabled={loading} onClick={generateQR}>Generate QR Code</button>
           <button className="download-button" onClick={downloadQR}>Download QR Code</button>
         </div>
-        <p>Designed By <a href='https://www.linkedin.com/in/lokesh-k-5b7513276/'>Lokesh K</a></p>
+        <p className="p">Designed By <a href='https://www.linkedin.com/in/lokesh-k-5b7513276/' className="p">Lokesh K</a></p>
+      </div>
       </div>
     );
   

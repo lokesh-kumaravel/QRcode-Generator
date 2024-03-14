@@ -85,3 +85,41 @@ label
 {
   color:  rgba(25, 194, 36, 0.694);
 }
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.background {
+  height: 100vh;
+ background-image: url('./assets/background.jpg'); 
+  background-size: cover;
+  animation: moveBackground 10s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+.p
+{
+  color:  white
+}
+/* background-image: url('https://www.shutterstock.com/image-illustration/80s-retro-futurism-background-260nw-1232789431.jpg'); Replace 'your-background-image.jpg' with your image URL */
+/* @keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.background {
+  height: 100vh;
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s infinite;
+} */
