@@ -96,11 +96,7 @@ label
 
 .background {
   height: 100vh;
-<<<<<<< HEAD
  background-image: url('./assets/background.jpg'); 
-=======
-     background-image: url('https://www.shutterstock.com/image-illustration/80s-retro-futurism-background-260nw-1232789431.jpg'); /* Replace 'your-background-image.jpg' with your image URL */
->>>>>>> d5cf83b1da96bad0d57ddfd580926b270bcfcb7c
   background-size: cover;
   animation: moveBackground 10s linear infinite; /* Adjust animation duration and timing function as needed */
 }
@@ -108,7 +104,6 @@ label
 {
   color:  white
 }
-<<<<<<< HEAD
 /* background-image: url('https://www.shutterstock.com/image-illustration/80s-retro-futurism-background-260nw-1232789431.jpg'); Replace 'your-background-image.jpg' with your image URL */
 /* @keyframes gradientAnimation {
   0% {
@@ -128,5 +123,3 @@ label
   background-size: 200% 200%;
   animation: gradientAnimation 10s infinite;
 } */
-=======
->>>>>>> d5cf83b1da96bad0d57ddfd580926b270bcfcb7c
