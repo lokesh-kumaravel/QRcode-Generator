@@ -96,7 +96,7 @@ label
 
 .background {
   height: 100vh;
-    background-image: url('./assets/background.jpg');  
+     background-image: url('https://www.shutterstock.com/image-illustration/80s-retro-futurism-background-260nw-1232789431.jpg'); /* Replace 'your-background-image.jpg' with your image URL */
   background-size: cover;
   animation: moveBackground 10s linear infinite; /* Adjust animation duration and timing function as needed */
 }
